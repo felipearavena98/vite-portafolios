@@ -6,7 +6,7 @@ import { Col, Row } from 'react-bootstrap';
 const TimeLine = () => {
     return (
         <>
-            <section className='container pt-5' id='experiencia'>
+            <section className='pt-5 contenedorTime container' id='experiencia'>
                 <h2 className='pt-5'>Experiencia Laboral/Profesional</h2>
                 <div className="timeline">
                     <div className="timeline__event  animated fadeInUp delay-3s timeline__event--type1">

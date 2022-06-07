@@ -18,215 +18,213 @@
 
 
 
-@media (min-width: 576px) {
-    .contenidoTyped {
 
-        @-webkit-keyframes contenido1 {
+.contenidoTyped {
 
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "F";
-            }
+    @-webkit-keyframes contenido1 {
 
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Fe";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Fel";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Feli ";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Felip";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Felipe";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Felipe ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Felipe A";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Felipe Ar";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Felipe Ara";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Felipe Arav";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Felipe Arave";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Felipe Araven";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Felipe Aravena";
-            }
+        /* string 1, char 1 */
+        0%,
+        7.142857142857143% {
+            content: "F";
         }
 
-        @keyframes contenido1 {
-
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "F";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Fe";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Fel";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Feli ";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Felip";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Felipe";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Felipe ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Felipe A";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Felipe Ar";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Felipe Ara";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Felipe Arav";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Felipe Arave";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Felipe Araven";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Felipe Aravena";
-            }
+        /* string 1, char 2 */
+        7.142857142857143%,
+        14.28571428571429% {
+            content: "Fe";
         }
 
-        @-webkit-keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
+        /* string 1, char 3 */
+        14.28571428571429%,
+        21.42857143% {
+            content: "Fel";
         }
 
-        @keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
+        /* string 1, char 4 */
+        21.42857143%,
+        28.57142857% {
+            content: "Feli ";
         }
 
-        * {
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+        /* string 1, char 5 */
+        28.57142857%,
+        35.71428571% {
+            content: "Felip";
         }
 
-        // .typewriter {
-        //     height: 100%;
-        // }
+        /* string 1, char 6 */
+        35.71428571%,
+        42.85714286% {
+            content: "Felipe";
+        }
+
+        /* string 1, char 7 */
+        42.85714286%,
+        50% {
+            content: "Felipe ";
+        }
+
+        /* string 1, char 8 */
+        50%,
+        57.14285715% {
+            content: "Felipe A";
+        }
+
+        /* string 1, char 9 */
+        57.14285715%,
+        64.28571429% {
+            content: "Felipe Ar";
+        }
+
+        /* string 1, char 10 */
+        64.28571429%,
+        71.42857143% {
+            content: "Felipe Ara";
+        }
+
+        /* string 1, char 11 */
+        71.42857143%,
+        78.57142857% {
+            content: "Felipe Arav";
+        }
+
+        /* string 1, char 12 */
+        78.57142857%,
+        85.71428571% {
+            content: "Felipe Arave";
+        }
+
+        /* string 1, char 13 */
+        85.71428571%,
+        92.85714285% {
+            content: "Felipe Araven";
+        }
+
+        /* string 1, char 14 */
+        92.85714285%,
+        100% {
+            content: "Felipe Aravena";
+        }
+    }
+
+    @keyframes contenido1 {
+
+        /* string 1, char 1 */
+        0%,
+        7.142857142857143% {
+            content: "F";
+        }
+
+        /* string 1, char 2 */
+        7.142857142857143%,
+        14.28571428571429% {
+            content: "Fe";
+        }
+
+        /* string 1, char 3 */
+        14.28571428571429%,
+        21.42857143% {
+            content: "Fel";
+        }
+
+        /* string 1, char 4 */
+        21.42857143%,
+        28.57142857% {
+            content: "Feli ";
+        }
+
+        /* string 1, char 5 */
+        28.57142857%,
+        35.71428571% {
+            content: "Felip";
+        }
+
+        /* string 1, char 6 */
+        35.71428571%,
+        42.85714286% {
+            content: "Felipe";
+        }
+
+        /* string 1, char 7 */
+        42.85714286%,
+        50% {
+            content: "Felipe ";
+        }
+
+        /* string 1, char 8 */
+        50%,
+        57.14285715% {
+            content: "Felipe A";
+        }
+
+        /* string 1, char 9 */
+        57.14285715%,
+        64.28571429% {
+            content: "Felipe Ar";
+        }
+
+        /* string 1, char 10 */
+        64.28571429%,
+        71.42857143% {
+            content: "Felipe Ara";
+        }
+
+        /* string 1, char 11 */
+        71.42857143%,
+        78.57142857% {
+            content: "Felipe Arav";
+        }
+
+        /* string 1, char 12 */
+        78.57142857%,
+        85.71428571% {
+            content: "Felipe Arave";
+        }
+
+        /* string 1, char 13 */
+        85.71428571%,
+        92.85714285% {
+            content: "Felipe Araven";
+        }
+
+        /* string 1, char 14 */
+        92.85714285%,
+        100% {
+            content: "Felipe Aravena";
+        }
+    }
+
+    @-webkit-keyframes beam-blink {
+        85% {
+            border-color: transparent;
+        }
+    }
+
+    @keyframes beam-blink {
+        85% {
+            border-color: transparent;
+        }
+    }
+
+    * {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    @media (min-width: 576px) {
 
         h2 {
             display: -webkit-box;
             display: flex;
-            -webkit-box-align: start;
-            align-items: start;
-            -webkit-box-pack: start;
-            justify-content: start;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
             background-repeat: repeat-y;
-            background-position: start start;
+            background-position: center center;
             background-size: cover, 100% 3px;
-            font-size: calc(10px + 2vw);
+            font-size: calc(15px + 2vw);
             font-family: 'VT323', monospace, sans-serif;
             color: #fff;
             -webkit-font-smoothing: antialiased;
@@ -254,248 +252,575 @@
         //         top: -33px;
         //     }
         // }
-
     }
 
-
-    .Typed-Content {
-
-        @-webkit-keyframes contenido2 {
-
-            0%,
-            7.142857142857143% {
-                content: "J";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Ju";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Jun";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Juni";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Junio";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Junior";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Junior ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Junior D";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Junior De";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Junior Dev";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Junior Deve";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Junior Devel";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Junior Develo";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Junior Develop";
-            }
-
-        }
-
-        @keyframes contenido2 {
-
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "J";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Ju";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Jun";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Juni";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Junio";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Junior";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Junior ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Junior D";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Junior De";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Junior Dev";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Junior Deve";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Junior Devel";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Junior Develo";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Junior Develop";
-            }
-        }
-
-        @-webkit-keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        @keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        * {
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-
-        // .typewriter {
-        //     height: 100%;
-        // }
-
-        h3 {
+    @media (max-width: 576px) {
+        h2 {
             display: -webkit-box;
             display: flex;
-            -webkit-box-align: start;
-            align-items: start;
-            -webkit-box-pack: start;
-            justify-content: start;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
             background-repeat: repeat-y;
-            background-position: start start;
+            background-position: center center;
             background-size: cover, 100% 3px;
-            font-size: calc(12px + 1vw);
+            font-size: calc(15px + 2vw);
             font-family: 'VT323', monospace, sans-serif;
             color: #fff;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
 
-        h3::after {
+        h2::after {
             content: "​";
             position: relative;
-            // top: ;
+            top: -13px;
             display: inline-block;
             padding-right: 3px;
             padding-right: calc(3px + 0.1vw);
-            border-right: 10px solid rgba(255, 255, 255, 0.75);
-            border-right: calc(1.1vw + 4px) solid rgba(255, 255, 255, 0.75);
-            text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+            border-right: 10px solid rgb(255, 255, 255);
+            border-right: calc(1.1vw + 4px) solid rgb(255, 255, 255);
+            text-shadow: 0 0 5px rgb(255, 255, 255);
             white-space: nowrap;
-            -webkit-animation: contenido2 8.72s linear 5s infinite, beam-blink 5s infinite;
-            animation: contenido2 8.72s linear 5s infinite, beam-blink 5s infinite;
+            -webkit-animation: contenido1 6.36s linear 10s infinite, beam-blink 10s infinite;
+            animation: contenido1 6.36s linear 10s infinite, beam-blink 10s infinite;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contenidoMe {
+
+        .content {
+            width: 200px;
+            font-size: 20px;
+            line-height: 40px;
+            // font-family: 'Muli';
+            color: #fff;
+            height: 40px;
+            position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // margin-top: -15px;
+            // margin-left: -118px;
+
+            &:before {
+                content: '[';
+                position: absolute;
+                left: 5%;
+                line-height: 40px;
+            }
+
+            &:after {
+                content: ']';
+                position: absolute;
+                right: -8%;
+                line-height: 40px;
+            }
+
+            &:after,
+            &:before {
+                color: #ffffff;
+                font-size: 40px;
+                animation: 2s linear 0s normal none infinite opacity;
+                -webkit-animation: 2s ease-out 0s normal none infinite opacity;
+                -moz-animation: 2s ease-out 0s normal none infinite opacity;
+                -o-animation: 2s ease-out 0s normal none infinite opacity;
+            }
+
         }
 
+        .visible {
+            float: left;
+            font-weight: 300;
+            overflow: hidden;
+            height: 40px;
+        }
 
-        // @media (max-width: 575px) {
-        //     body::after {
-        //         top: -33px;
-        //     }
-        // }
+        p {
+            display: inline;
+            float: right;
+            margin: 0;
+        }
 
+        ul {
+            margin-top: 0;
+            padding-right: 90px;
+            text-align: left;
+            list-style: none;
+            animation: 8s linear 0s normal none infinite change;
+            -webkit-animation: 8s linear 0s normal none infinite change;
+            -moz-animation: 8s linear 0s normal none infinite change;
+            -o-animation: 8s linear 0s normal none infinite change;
+        }
+
+        ul li {
+            line-height: 40px;
+            margin: 0;
+        }
+
+        @-webkit-keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+
+        @keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
     }
+}
 
+@media (min-width: 576px) {
+    .contenidoMe {
+
+        .content {
+            width: 400px;
+            font-size: 20px;
+            line-height: 40px;
+            // font-family: 'Muli';
+            color: #fff;
+            height: 40px;
+            position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // margin-top: -15px;
+            // margin-left: -118px;
+
+            &:before {
+                content: '[';
+                position: absolute;
+                left: 25%;
+                line-height: 40px;
+            }
+
+            &:after {
+                content: ']';
+                position: absolute;
+                right: -5%;
+                line-height: 40px;
+            }
+
+            &:after,
+            &:before {
+                color: #ffffff;
+                font-size: 40px;
+                animation: 2s linear 0s normal none infinite opacity;
+                -webkit-animation: 2s ease-out 0s normal none infinite opacity;
+                -moz-animation: 2s ease-out 0s normal none infinite opacity;
+                -o-animation: 2s ease-out 0s normal none infinite opacity;
+            }
+
+        }
+
+        .visible {
+            float: right;
+            font-weight: 400;
+            overflow: hidden;
+            height: 40px;
+        }
+
+        p {
+            display: inline;
+            float: right;
+            margin: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-right: 150px;
+            text-align: right;
+            list-style: none;
+            animation: 8s linear 0s normal none infinite change;
+            -webkit-animation: 8s linear 0s normal none infinite change;
+            -moz-animation: 8s linear 0s normal none infinite change;
+            -o-animation: 8s linear 0s normal none infinite change;
+        }
+
+        ul li {
+            line-height: 40px;
+            margin: 0;
+        }
+
+        @-webkit-keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+
+        @keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .contenidoMe {
+
+        .content {
+            width: 400px;
+            font-size: 20px;
+            line-height: 40px;
+            // font-family: 'Muli';
+            color: #fff;
+            height: 40px;
+            position: absolute;
+            // top: 50%;
+            // left: 50%;
+            // margin-top: -15px;
+            // margin-left: -118px;
+
+            &:before {
+                content: '[';
+                position: absolute;
+                left: 25%;
+                line-height: 40px;
+            }
+
+            &:after {
+                content: ']';
+                position: absolute;
+                right: -5%;
+                line-height: 40px;
+            }
+
+            &:after,
+            &:before {
+                color: #ffffff;
+                font-size: 40px;
+                animation: 2s linear 0s normal none infinite opacity;
+                -webkit-animation: 2s ease-out 0s normal none infinite opacity;
+                -moz-animation: 2s ease-out 0s normal none infinite opacity;
+                -o-animation: 2s ease-out 0s normal none infinite opacity;
+            }
+
+        }
+
+        .visible {
+            float: right;
+            font-weight: 400;
+            overflow: hidden;
+            height: 40px;
+        }
+
+        p {
+            display: inline;
+            float: right;
+            margin: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-right: 150px;
+            text-align: right;
+            list-style: none;
+            animation: 8s linear 0s normal none infinite change;
+            -webkit-animation: 8s linear 0s normal none infinite change;
+            -moz-animation: 8s linear 0s normal none infinite change;
+            -o-animation: 8s linear 0s normal none infinite change;
+        }
+
+        ul li {
+            line-height: 40px;
+            margin: 0;
+        }
+
+        @-webkit-keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes opacity {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+
+        @keyframes change {
+            0% {
+                margin-top: 0;
+            }
+
+            15% {
+                margin-top: 0;
+            }
+
+            25% {
+                margin-top: -40px;
+            }
+
+            40% {
+                margin-top: -40px;
+            }
+
+            50% {
+                margin-top: -80px;
+            }
+
+            65% {
+                margin-top: -80px;
+            }
+
+            75% {
+                margin-top: -40px;
+            }
+
+            85% {
+                margin-top: -40px;
+            }
+
+            100% {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
     .contenidoMe {
 
         .content {
@@ -672,493 +997,16 @@
     }
 }
 
-@media (max-width: 575px) {
-    .contenidoTyped {
-
-        @-webkit-keyframes contenido1 {
-
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "F";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Fe";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Fel";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Feli ";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Felip";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Felipe";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Felipe ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Felipe A";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Felipe Ar";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Felipe Ara";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Felipe Arav";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Felipe Arave";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Felipe Araven";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Felipe Aravena";
-            }
-        }
-
-        @keyframes contenido1 {
-
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "F";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Fe";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Fel";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Feli ";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Felip";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Felipe";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Felipe ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Felipe A";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Felipe Ar";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Felipe Ara";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Felipe Arav";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Felipe Arave";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Felipe Araven";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Felipe Aravena";
-            }
-        }
-
-        @-webkit-keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        @keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        * {
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-
-        // .typewriter {
-        //     height: 100%;
-        // }
-
-        h2 {
-            display: -webkit-box;
-            display: flex;
-            -webkit-box-align: start;
-            align-items: start;
-            -webkit-box-pack: start;
-            justify-content: start;
-            background-repeat: repeat-y;
-            background-position: start start;
-            background-size: cover, 100% 3px;
-            font-size: calc(10px + 2vw);
-            font-family: 'VT323', monospace, sans-serif;
-            color: #fff;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        h2::after {
-            content: "​";
-            position: relative;
-            top: -13px;
-            display: inline-block;
-            padding-right: 3px;
-            padding-right: calc(3px + 0.1vw);
-            border-right: 10px solid rgb(255, 255, 255);
-            border-right: calc(1.1vw + 4px) solid rgb(255, 255, 255);
-            text-shadow: 0 0 5px rgb(255, 255, 255);
-            white-space: nowrap;
-            -webkit-animation: contenido1 3.36s linear 1s infinite, beam-blink 1s infinite;
-            animation: contenido1 3.36s linear 1s infinite, beam-blink 1s infinite;
-        }
-
-
-        // @media (max-width: 575px) {
-        //     body::after {
-        //         top: -33px;
-        //     }
-        // }
-
-    }
-
-
-    .Typed-Content {
-
-        @-webkit-keyframes contenido2 {
-
-            0%,
-            7.142857142857143% {
-                content: "J";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Ju";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Jun";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Juni";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Junio";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Junior";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Junior ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Junior D";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Junior De";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Junior Dev";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Junior Deve";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Junior Devel";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Junior Develo";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Junior Develop";
-            }
-
-        }
-
-        @keyframes contenido2 {
-
-            /* string 1, char 1 */
-            0%,
-            7.142857142857143% {
-                content: "J";
-            }
-
-            /* string 1, char 2 */
-            7.142857142857143%,
-            14.28571428571429% {
-                content: "Ju";
-            }
-
-            /* string 1, char 3 */
-            14.28571428571429%,
-            21.42857143% {
-                content: "Jun";
-            }
-
-            /* string 1, char 4 */
-            21.42857143%,
-            28.57142857% {
-                content: "Juni";
-            }
-
-            /* string 1, char 5 */
-            28.57142857%,
-            35.71428571% {
-                content: "Junio";
-            }
-
-            /* string 1, char 6 */
-            35.71428571%,
-            42.85714286% {
-                content: "Junior";
-            }
-
-            /* string 1, char 7 */
-            42.85714286%,
-            50% {
-                content: "Junior ";
-            }
-
-            /* string 1, char 8 */
-            50%,
-            57.14285715% {
-                content: "Junior D";
-            }
-
-            /* string 1, char 9 */
-            57.14285715%,
-            64.28571429% {
-                content: "Junior De";
-            }
-
-            /* string 1, char 10 */
-            64.28571429%,
-            71.42857143% {
-                content: "Junior Dev";
-            }
-
-            /* string 1, char 11 */
-            71.42857143%,
-            78.57142857% {
-                content: "Junior Deve";
-            }
-
-            /* string 1, char 12 */
-            78.57142857%,
-            85.71428571% {
-                content: "Junior Devel";
-            }
-
-            /* string 1, char 13 */
-            85.71428571%,
-            92.85714285% {
-                content: "Junior Develo";
-            }
-
-            /* string 1, char 14 */
-            92.85714285%,
-            100% {
-                content: "Junior Develop";
-            }
-        }
-
-        @-webkit-keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        @keyframes beam-blink {
-            85% {
-                border-color: transparent;
-            }
-        }
-
-        * {
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-
-        // .typewriter {
-        //     height: 100%;
-        // }
-
-        h3 {
-            display: -webkit-box;
-            display: flex;
-            -webkit-box-align: start;
-            align-items: start;
-            -webkit-box-pack: start;
-            justify-content: start;
-            background-repeat: repeat-y;
-            background-position: start start;
-            background-size: cover, 100% 3px;
-            font-size: calc(12px + 1vw);
-            font-family: 'VT323', monospace, sans-serif;
-            color: #fff;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        h3::after {
-            content: "​";
-            position: relative;
-            // top: ;
-            display: inline-block;
-            padding-right: 3px;
-            padding-right: calc(3px + 0.1vw);
-            border-right: 10px solid rgba(255, 255, 255, 0.75);
-            border-right: calc(1.1vw + 4px) solid rgba(255, 255, 255, 0.75);
-            text-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
-            white-space: nowrap;
-            -webkit-animation: contenido2 8.72s linear 5s infinite, beam-blink 5s infinite;
-            animation: contenido2 8.72s linear 5s infinite, beam-blink 5s infinite;
-        }
-
-
-        // @media (max-width: 575px) {
-        //     body::after {
-        //         top: -33px;
-        //     }
-        // }
-
-    }
-
+@media (min-width: 992px) {
     .contenidoMe {
 
         .content {
-            width: 150px;
-            font-size: 10px;
-            line-height: 20px;
+            width: 300px;
+            font-size: 20px;
+            line-height: 40px;
             // font-family: 'Muli';
             color: #fff;
-            height: 20px;
+            height: 40px;
             position: absolute;
             // top: 50%;
             // left: 50%;
@@ -1168,21 +1016,21 @@
             &:before {
                 content: '[';
                 position: absolute;
-                left: 13%;
-                line-height: 20px;
+                left: 25%;
+                line-height: 40px;
             }
 
             &:after {
                 content: ']';
                 position: absolute;
-                right: -3%;
-                line-height: 20px;
+                right: -5%;
+                line-height: 40px;
             }
 
             &:after,
             &:before {
                 color: #ffffff;
-                font-size: 20px;
+                font-size: 40px;
                 animation: 2s linear 0s normal none infinite opacity;
                 -webkit-animation: 2s ease-out 0s normal none infinite opacity;
                 -moz-animation: 2s ease-out 0s normal none infinite opacity;
@@ -1193,9 +1041,9 @@
 
         .visible {
             float: right;
-            font-weight: 200;
+            font-weight: 400;
             overflow: hidden;
-            height: 20px;
+            height: 40px;
         }
 
         p {
@@ -1206,7 +1054,7 @@
 
         ul {
             margin-top: 0;
-            padding-right: 60px;
+            padding-right: 120px;
             text-align: right;
             list-style: none;
             animation: 8s linear 0s normal none infinite change;
@@ -1216,7 +1064,7 @@
         }
 
         ul li {
-            line-height: 20px;
+            line-height: 40px;
             margin: 0;
         }
 
@@ -1329,9 +1177,19 @@
 
 
 
+
+
 $enable-negative-margins: true;
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-.margin-top-n {
-    margin-top: -300px;
+@media (max-width: 768px) {
+    .margin-top-n {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .margin-top-n {
+        margin-top: -300px;
+    }
 }

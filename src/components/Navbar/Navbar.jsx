@@ -9,7 +9,7 @@ const Navbar = () => {
                     to='/'
                     className='nav-link text-white fs-2'
                 >
-                    Felipe Aravena
+                    Home
                 </Link>
             </div>
             <ul className="nav justify-content-end">
@@ -28,14 +28,6 @@ const Navbar = () => {
                     >
                         Proyectos
                     </Link>
-                </li>
-                <li className="nav-item">
-                    <a
-                        href='#contacto'
-                        className='nav-link text-white fs-2'
-                    >
-                        Contacto
-                    </a>
                 </li>
             </ul>
         </nav>

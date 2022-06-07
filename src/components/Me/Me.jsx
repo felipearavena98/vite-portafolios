@@ -9,7 +9,7 @@ const Me = () => {
         <>
 
             <section className='margin-top-n text-white container' >
-                <header className='d-flex flex-row flex-wrap'>
+                <header className='d-flex flex-wrap'>
                     <div className='col-12 col-md-6 justify-content-start'>
                         <div className='contenidoTyped'>
                             <h2 className='contenido1'></h2>
@@ -19,8 +19,8 @@ const Me = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-6 mt-5'>
-                        <div className='contenidoMe mt-5'>
-                            <div className='content mt-5 justify-content-end'>
+                        <div className='contenidoMe'>
+                            <div className='content justify-content-end'>
                                 <div className='visible'>
                                     <p className=''>
                                         Developer

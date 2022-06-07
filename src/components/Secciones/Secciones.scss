@@ -406,123 +406,631 @@
 }
 
 
-.textoLoad {
+
+@media (max-width: 575.8px) {
+    .textoLoad {
 
 
-    // background: black;
-    // font-family: 'Varela', sans-serif;
+        // background: black;
+        // font-family: 'Varela', sans-serif;
 
 
-    .glitch {
-        color: white;
-        font-size: 82px;
-        position: relative;
-        width: 85%;
-        margin: 0 auto;
-    }
+        .glitch {
+            color: white;
+            font-size: 40px;
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        }
 
-    @keyframes noise-anim {
-        $steps: 20;
+        @keyframes noise-anim {
+            $steps: 20;
 
-        @for $i from 0 through $steps {
-            #{percentage($i*calc(1/$steps))} {
-                clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
             }
         }
-    }
 
-    .glitch:after {
-        content: attr(data-text);
-        position: absolute;
-        left: 2px;
-        text-shadow: -1px 0 red;
-        top: 0;
-        color: white;
-        // background: black;
-        overflow: hidden;
-        clip: rect(0, 900px, 0, 0);
-        animation: noise-anim 2s infinite linear alternate-reverse;
-    }
+        .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
 
-    @keyframes noise-anim-2 {
-        $steps: 20;
+        @keyframes noise-anim-2 {
+            $steps: 20;
 
-        @for $i from 0 through $steps {
-            #{percentage($i*calc(1/$steps))} {
-                clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
             }
         }
-    }
 
-    .glitch:before {
-        content: attr(data-text);
-        position: absolute;
-        left: -2px;
-        text-shadow: 1px 0 blue;
-        top: 0;
-        color: white;
-        // background: black;
-        overflow: hidden;
-        clip: rect(0, 900px, 0, 0);
-        animation: noise-anim-2 3s infinite linear alternate-reverse;
+        .glitch:before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 1px 0 blue;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
     }
 }
 
-.backendText {
-    span {
-        // position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 80px;
-        letter-spacing: 0.1em;
+@media (min-width: 576px) {
+    .textoLoad {
+        // background: black;
+        // font-family: 'Varela', sans-serif;
+
+
+        .glitch {
+            color: white;
+            font-size: 60px;
+            position: relative;
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        @keyframes noise-anim {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+
+        @keyframes noise-anim-2 {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 1px 0 blue;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .textoLoad {
+
+
+        // background: black;
+        // font-family: 'Varela', sans-serif;
+
+
+        .glitch {
+            color: white;
+            font-size: 50px;
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        @keyframes noise-anim {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+
+        @keyframes noise-anim-2 {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 1px 0 blue;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .textoLoad {
+
+
+        // background: black;
+        // font-family: 'Varela', sans-serif;
+
+
+        .glitch {
+            color: white;
+            font-size: 60px;
+            position: relative;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        @keyframes noise-anim {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+
+        @keyframes noise-anim-2 {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 1px 0 blue;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .textoLoad {
+
+
+        // background: black;
+        // font-family: 'Varela', sans-serif;
+
+
+        .glitch {
+            color: white;
+            font-size: 82px;
+            position: relative;
+            width: 85%;
+            margin: 0 auto;
+        }
+
+        @keyframes noise-anim {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:after {
+            content: attr(data-text);
+            position: absolute;
+            left: 2px;
+            text-shadow: -1px 0 red;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim 2s infinite linear alternate-reverse;
+        }
+
+        @keyframes noise-anim-2 {
+            $steps: 20;
+
+            @for $i from 0 through $steps {
+                #{percentage($i*calc(1/$steps))} {
+                    clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+                }
+            }
+        }
+
+        .glitch:before {
+            content: attr(data-text);
+            position: absolute;
+            left: -2px;
+            text-shadow: 1px 0 blue;
+            top: 0;
+            color: white;
+            // background: black;
+            overflow: hidden;
+            clip: rect(0, 900px, 0, 0);
+            animation: noise-anim-2 3s infinite linear alternate-reverse;
+        }
+    }
+}
+
+
+
+@media (max-width: 575.8px) {
+    .backendText {
+        span {
+            // position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            letter-spacing: 0.1em;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                8px 8px #ceff1f,
+                20px 20px #000000;
+        }
+    }
+
+    article {
+        /*  leverage cascade for cross-browser gradients  */
+        background: radial-gradient(rgb(208, 255, 0),
+                rgb(255, 255, 255)) fixed;
+        background: conic-gradient(rgb(238, 255, 0),
+                rgba(0, 0, 0, 0.692),
+                rgb(255, 255, 255)) fixed;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke-width: 3px;
-        -webkit-text-stroke-color: white;
-        text-shadow:
-            8px 8px #ceff1f,
-            20px 20px #000000;
+        text-align: center;
+
+        color: white;
+        min-block-size: 40vh;
+        min-inline-size: 100%;
+        padding: 5vmin;
+        box-sizing: border-box;
+        display: grid;
+        place-content: center;
+        font-family: system-ui;
+        font-size: min(200%, 5vmin);
+
+        h3,
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15vmin;
+            line-height: 1.1;
+            max-inline-size: 15ch;
+            margin: auto;
+        }
+
+        p {
+            font-family: "Dank Mono", ui-monospace, monospace;
+            margin-top: 1ch;
+            line-height: 1.35;
+            max-inline-size: 40ch;
+            margin: auto;
+        }
     }
 }
 
-article {
-    /*  leverage cascade for cross-browser gradients  */
-    background: radial-gradient(rgb(208, 255, 0),
-            rgb(255, 255, 255)) fixed;
-    background: conic-gradient(rgb(238, 255, 0),
-            rgba(0, 0, 0, 0.692),
-            rgb(255, 255, 255)) fixed;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-
-    color: white;
-    min-block-size: 40vh;
-    min-inline-size: 100%;
-    padding: 5vmin;
-    box-sizing: border-box;
-    display: grid;
-    place-content: center;
-    font-family: system-ui;
-    font-size: min(200%, 5vmin);
-
-    h3,
-    p {
-        margin: 0;
+@media (min-width: 576px) {
+    .backendText {
+        span {
+            // position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            letter-spacing: 0.1em;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                8px 8px #ceff1f,
+                20px 20px #000000;
+        }
     }
 
-    h3 {
-        font-size: 15vmin;
-        line-height: 1.1;
-        max-inline-size: 15ch;
-        margin: auto;
+    article {
+        /*  leverage cascade for cross-browser gradients  */
+        background: radial-gradient(rgb(208, 255, 0),
+                rgb(255, 255, 255)) fixed;
+        background: conic-gradient(rgb(238, 255, 0),
+                rgba(0, 0, 0, 0.692),
+                rgb(255, 255, 255)) fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+        color: white;
+        min-block-size: 40vh;
+        min-inline-size: 100%;
+        padding: 5vmin;
+        box-sizing: border-box;
+        display: grid;
+        place-content: center;
+        font-family: system-ui;
+        font-size: min(200%, 5vmin);
+
+        h3,
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15vmin;
+            line-height: 1.1;
+            max-inline-size: 15ch;
+            margin: auto;
+        }
+
+        p {
+            font-family: "Dank Mono", ui-monospace, monospace;
+            margin-top: 1ch;
+            line-height: 1.35;
+            max-inline-size: 40ch;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .backendText {
+        span {
+            // position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 45px;
+            letter-spacing: 0.1em;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                8px 8px #ceff1f,
+                20px 20px #000000;
+        }
     }
 
-    p {
-        font-family: "Dank Mono", ui-monospace, monospace;
-        margin-top: 1ch;
-        line-height: 1.35;
-        max-inline-size: 40ch;
-        margin: auto;
+    article {
+        /*  leverage cascade for cross-browser gradients  */
+        background: radial-gradient(rgb(208, 255, 0),
+                rgb(255, 255, 255)) fixed;
+        background: conic-gradient(rgb(238, 255, 0),
+                rgba(0, 0, 0, 0.692),
+                rgb(255, 255, 255)) fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+        color: white;
+        min-block-size: 40vh;
+        min-inline-size: 100%;
+        padding: 5vmin;
+        box-sizing: border-box;
+        display: grid;
+        place-content: center;
+        font-family: system-ui;
+        font-size: min(200%, 5vmin);
+
+        h3,
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15vmin;
+            line-height: 1.1;
+            max-inline-size: 15ch;
+            margin: auto;
+        }
+
+        p {
+            font-family: "Dank Mono", ui-monospace, monospace;
+            margin-top: 1ch;
+            line-height: 1.35;
+            max-inline-size: 40ch;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .backendText {
+        span {
+            // position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
+            letter-spacing: 0.1em;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                8px 8px #ceff1f,
+                20px 20px #000000;
+        }
+    }
+
+    article {
+        /*  leverage cascade for cross-browser gradients  */
+        background: radial-gradient(rgb(208, 255, 0),
+                rgb(255, 255, 255)) fixed;
+        background: conic-gradient(rgb(238, 255, 0),
+                rgba(0, 0, 0, 0.692),
+                rgb(255, 255, 255)) fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+        color: white;
+        min-block-size: 40vh;
+        min-inline-size: 100%;
+        padding: 5vmin;
+        box-sizing: border-box;
+        display: grid;
+        place-content: center;
+        font-family: system-ui;
+        font-size: min(200%, 5vmin);
+
+        h3,
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15vmin;
+            line-height: 1.1;
+            max-inline-size: 15ch;
+            margin: auto;
+        }
+
+        p {
+            font-family: "Dank Mono", ui-monospace, monospace;
+            margin-top: 1ch;
+            line-height: 1.35;
+            max-inline-size: 40ch;
+            margin: auto;
+        }
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .backendText {
+        span {
+            // position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 80px;
+            letter-spacing: 0.1em;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 3px;
+            -webkit-text-stroke-color: white;
+            text-shadow:
+                8px 8px #ceff1f,
+                20px 20px #000000;
+        }
+    }
+
+    article {
+        /*  leverage cascade for cross-browser gradients  */
+        background: radial-gradient(rgb(208, 255, 0),
+                rgb(255, 255, 255)) fixed;
+        background: conic-gradient(rgb(238, 255, 0),
+                rgba(0, 0, 0, 0.692),
+                rgb(255, 255, 255)) fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+
+        color: white;
+        min-block-size: 40vh;
+        min-inline-size: 100%;
+        padding: 5vmin;
+        box-sizing: border-box;
+        display: grid;
+        place-content: center;
+        font-family: system-ui;
+        font-size: min(200%, 5vmin);
+
+        h3,
+        p {
+            margin: 0;
+        }
+
+        h3 {
+            font-size: 15vmin;
+            line-height: 1.1;
+            max-inline-size: 15ch;
+            margin: auto;
+        }
+
+        p {
+            font-family: "Dank Mono", ui-monospace, monospace;
+            margin-top: 1ch;
+            line-height: 1.35;
+            max-inline-size: 40ch;
+            margin: auto;
+        }
     }
 }

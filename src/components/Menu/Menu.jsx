@@ -1,4 +1,4 @@
-import { faHouse, faChalkboard, faMicrochip } from '@fortawesome/free-solid-svg-icons'
+import { faHouse, faChalkboard, faMicrochip, faContactBook } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import './Menu.scss'
@@ -52,6 +52,17 @@ const Menu = () => {
                             className='title'
                         >
                             Github
+                        </span>
+                    </a>
+                    <a href="#contacto">
+                        <span className='icon'>
+
+                            <FontAwesomeIcon icon={faContactBook} />
+                        </span>
+                        <span
+                            className='title'
+                        >
+                            Contacto
                         </span>
                     </a>
                 </nav>
