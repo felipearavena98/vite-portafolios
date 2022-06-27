@@ -34,14 +34,12 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>HTML</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={htmlimg} alt="" />
                             </div>
                             <div className="game">
                                 <div className="content">
                                     <h2>JavaScript</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={jslogo} alt="" />
                             </div>
@@ -49,7 +47,6 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>Sass</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={sasslogo} alt="" />
                             </div>
@@ -57,7 +54,6 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>React</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={reactlogo} alt="" />
                             </div>
@@ -65,7 +61,6 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>Bootstrap</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={bootstraplogo} alt="" />
                             </div>
@@ -73,7 +68,6 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>CSS</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={csslogo} alt="" />
                             </div>
@@ -88,28 +82,24 @@ const Secciones = () => {
                             <div className="game">
                                 <div className="content">
                                     <h2>Node</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={nodejs} alt="" />
                             </div>
                             <div className="game">
                                 <div className="content">
                                     <h2>Express</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={expess} alt="" />
                             </div>
                             <div className="game">
                                 <div className="content">
                                     <h2>MongoDB</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={mongo} alt="" />
                             </div>
                             <div className="game">
                                 <div className="content">
                                     <h2>Postgresql</h2>
-                                    <a href="#">Leer más</a>
                                 </div>
                                 <img src={postgresql} alt="" />
                             </div>
