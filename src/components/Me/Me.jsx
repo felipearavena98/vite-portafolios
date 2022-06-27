@@ -1,6 +1,6 @@
 import React from 'react'
 import './Me.scss'
-import CV from "../../images/assets/curriculum/cv.pdf"
+// import CV from "../../images/assets/curriculum/cv.pdf"
 // import { } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -18,7 +18,7 @@ const Me = () => {
                             <h3 className='contenido2'></h3>
                         </div>
                     </div>
-                    <div className='col-12 col-md-6 mt-5'>
+                    <div className='col-12 col-md-6 mt-2'>
                         <div className='contenidoMe'>
                             <div className='content justify-content-end'>
                                 <div className='visible'>
