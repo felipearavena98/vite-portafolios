@@ -30,4 +30,4 @@ const Proyectos = () => {
     )
 }
 
-// export default Proyectos
+export default Proyectos

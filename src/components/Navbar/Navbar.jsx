@@ -13,14 +13,14 @@ const Navbar = () => {
                 </Link>
             </div>
             <ul className="nav justify-content-end">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <Link
                         to='gist'
                         className='nav-link text-white fs-2'
                     >
                         Gist
                     </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <Link
                         to="proyectos"

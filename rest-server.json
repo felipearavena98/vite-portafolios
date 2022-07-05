@@ -1,0 +1,809 @@
+{
+	"info": {
+		"_postman_id": "8242dc8e-867e-41f3-a9b1-329659883230",
+		"name": "Rest-server-API",
+		"description": "Esta es la documentación para el gestor de usuarios y productos.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18496809"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "update user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Felipe Aravena\",\r\n    \"google\": true,\r\n    \"email\": \"correo@correo.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/users/628e5d8f12dbdcba2fcae21c",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"628e5d8f12dbdcba2fcae21c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Test15\",\r\n    \"email\": \"correo15@correo.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"USER_ROLE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/users",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODkwMDU1MjAyZGRkYjIwYmQ2MmMiLCJpYXQiOjE2NTM1MzM3MDMsImV4cCI6MTY1MzU0ODEwM30.EEy5xtlq6DuWwlFCyA0-TJ8UO5vs1Rmu_eFA67k_oXo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Felipe Aravena\",\r\n    \"google\": true,\r\n    \"email\": \"correo@correo.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/users/628e88f255202dddb20bd628",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"628e88f255202dddb20bd628"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Felipe Aravena\",\r\n    \"google\": true,\r\n    \"email\": \"correo@correo.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/users?from=0&limit=5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "from",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get users Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Felipe Aravena\",\r\n    \"google\": true,\r\n    \"email\": \"correo@correo.com\",\r\n    \"password\": \"123456\",\r\n    \"role\": \"ADMIN_ROLE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/users?from=0&limit=5",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "from",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "create product",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Cracker\",\r\n    \"category\": \"628ff6eb18352337d046825a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get product",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/products/6290364a503cc33bd25a3e2d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"6290364a503cc33bd25a3e2d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update product",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Crakers\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/6290364a503cc33bd25a3e2d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"6290364a503cc33bd25a3e2d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete product",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Crakers\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/products/6290364a503cc33bd25a3e2d",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"6290364a503cc33bd25a3e2d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get products",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/products",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "login",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"correo1@correo.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/auth/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "auth with google",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_token\": \"123abc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/auth/google",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"google"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "get categories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"asdasd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete category",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MDEwMzcsImV4cCI6MTY1MzYxNTQzN30.gcKpudNmAtkuA-lI_1iAfBTM2v1B2zLl-ykjKOkqp94",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"asdasd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category/628ff6eb18352337d046825a",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"628ff6eb18352337d046825a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update category Copy",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MDEwMzcsImV4cCI6MTY1MzYxNTQzN30.gcKpudNmAtkuA-lI_1iAfBTM2v1B2zLl-ykjKOkqp94",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"SNACKS\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category/628ff6eb18352337d046825a",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"628ff6eb18352337d046825a"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update category",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MDEwMzcsImV4cCI6MTY1MzYxNTQzN30.gcKpudNmAtkuA-lI_1iAfBTM2v1B2zLl-ykjKOkqp94",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"SNACKS\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category/628ff6eb18352337d046825a",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"628ff6eb18352337d046825a"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create category",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Energy\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get category",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MDEwMzcsImV4cCI6MTY1MzYxNTQzN30.gcKpudNmAtkuA-lI_1iAfBTM2v1B2zLl-ykjKOkqp94",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"asdasd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/category/628ff6eb18352337d046825a",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"category",
+								"628ff6eb18352337d046825a"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "search",
+			"item": [
+				{
+					"name": "get search",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MjhlODhmMjU1MjAyZGRkYjIwYmQ2MjgiLCJpYXQiOjE2NTM2MTgxODcsImV4cCI6MTY1MzYzMjU4N30.CsBvQlkkIWaqlCwPyVu6za2mrMkdlCfDBAqvTc5UARg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/search/users/test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"search",
+								"users",
+								"test"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "uploads",
+			"item": [
+				{
+					"name": "upload File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/felip/Downloads/Logo_TV_2015.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/uploads",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"uploads"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upload product img",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/felip/Downloads/Logo_TV_2015.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/uploads/products/62903617503cc33bd25a3e1e",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"uploads",
+								"products",
+								"62903617503cc33bd25a3e1e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upload cloudinary",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/felip/Downloads/maximilian-simson-sJmp4blGjLU-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/uploads/products/62903617503cc33bd25a3e1e",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"uploads",
+								"products",
+								"62903617503cc33bd25a3e1e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upload cloudinary Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/felip/Downloads/maximilian-simson-sJmp4blGjLU-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/uploads/products/62903617503cc33bd25a3e1e",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"uploads",
+								"products",
+								"62903617503cc33bd25a3e1e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upload user img",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/felip/Downloads/Logo_TV_2015.png"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/uploads/users/628e88f255202dddb20bd628",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"uploads",
+								"users",
+								"628e88f255202dddb20bd628"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
